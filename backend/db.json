@@ -76,14 +76,9 @@
       "id": "KyPAEoMZydM"
     },
     {
-      "conteudo": "Na volta agente compra! Mas não comprou!",
-      "autoria": "Mãe",
-      "id": "43vQwT9t5h4"
-    },
-    {
-      "id": "F_Lo9H9TmDE",
-      "conteudo": "          Na minha máquina funciona! sim!",
-      "autoria": "Dev"
+      "id": "QECpVK7DLUI",
+      "conteudo": "          A única coisa que sei é que nada sei!",
+      "autoria": "Eleza"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
