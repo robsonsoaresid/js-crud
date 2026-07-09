@@ -61,24 +61,19 @@
       "autoria": "Seu Madruga"
     },
     {
-      "id": "4d2e",
-      "conteudo": "Se eu for aí e achar, eu esfrego na sua cara!",
-      "autoria": "Mãe"
-    },
-    {
-      "conteudo": "          Na minha m´quina funciona",
-      "autoria": "Dev",
-      "id": "kWTDzRRhdT4"
-    },
-    {
-      "conteudo": "Na volta agente compra!",
-      "autoria": "Mãe",
-      "id": "KyPAEoMZydM"
-    },
-    {
-      "id": "QECpVK7DLUI",
       "conteudo": "          A única coisa que sei é que nada sei!",
-      "autoria": "Eleza"
+      "autoria": "Robson",
+      "id": "yjliVb-GdKQ"
+    },
+    {
+      "conteudo": "          Aquele que não recebe a cruz de Cristo, não receberá o amor de Cristo",
+      "autoria": "Maria Eliza",
+      "id": "MDuay5IwTLU"
+    },
+    {
+      "conteudo": "          Eu sou duro 70!",
+      "autoria": "Josué",
+      "id": "56byKI1W4S4"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
