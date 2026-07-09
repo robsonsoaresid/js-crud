@@ -26,7 +26,6 @@ const ui = {
         mensagemVazia.style.display = "block";
       } else {
         mensagemVazia.style.display = "none";
-       
       }
       
     } catch {

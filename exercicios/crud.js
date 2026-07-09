@@ -33,3 +33,36 @@ D// ELETE: Remove um recurso específico do servidor, equivalente à operação 
 // São habilidades básicas de qualquer pessoa desenvolvedora a compreensão e aplicação das operações CRUD. Os conceitos e suas técnicas envolvem a manipulação de dados e seu uso pode ser generalizado e ampliado para qualquer linguagem de programação, embora cada uma implemente o CRUD de uma forma diferente.
 
 // É graças ao CRUD que podemos receber, enviar, salvar e remover informações em aplicações.
+
+// Para saber mais: entendendo os códigos de status das requisições HTTP
+
+// 1. O que são os códigos de status das requisições HTTP?
+// Os códigos de status das requisições HTTP são respostas numéricas enviadas pelo servidor para indicar o resultado da solicitação feita pelo cliente. Compreender esses códigos é fundamental, pois eles fornecem informações precisas sobre o sucesso, falhas ou outras condições das operações realizadas.
+
+// Lembra quando dissemos que o HTTP é um conjunto de regras e protocolos que facilita o tráfego de dados da internet? Pois bem, os códigos de status são uma dessas regras, protocolos que funcionam de forma quase “universal” entre diversos dispositivos e linguagens.
+
+// 2. Quais os principais códigos de status?
+// 2.1. 2xx (Sucesso): indica que a requisição foi recebida, entendida e aceita pelo servidor. Exemplos comuns são:
+
+// 200 OK: requisição bem-sucedida;
+// 201 Created: requisição foi bem-sucedida e resultou na criação de um novo recurso.
+// 2.2. 3xx (Redirecionamento): indica que mais ações são necessárias para completar a requisição. Exemplos incluem:
+
+// 301 Moved Permanently: recurso requisitado foi movido permanentemente para um novo endereço;
+// 302 Found: recurso requisitado foi encontrado temporariamente em um novo endereço.
+//2.3. 4xx (Erro do cliente): indica que houve um erro por parte do cliente ao realizar a requisição. Exemplos //incluem:
+
+//400 Bad Request: requisição inválida, como parâmetros ausentes ou malformados;
+//401 Unauthorized: requer autenticação para acessar o recurso;
+//404 Not Found: recurso requisitado não foi encontrado no servidor. Quem nunca recebeu uma dessas na vida?
+//2.4. 5xx (Erro do servidor): indica que houve um erro por parte do servidor ao processar a requisição. Exemplos incluem:
+
+//500 Internal Server Error: erro genérico do servidor, indicando falha na execução da requisição.
+//503 Service Unavailable: servidor temporariamente incapaz de processar a requisição devido a sobrecarga ou manutenção.
+//3. Qual a importância de entender os códigos de status?
+//É importante que você compreenda o significado desses códigos, pois será mais tranquilo lidar com possíveis erros em uma aplicação:
+
+//Diagnóstico de problemas: os códigos de status ajudam a identificar rapidamente a causa de problemas durante o desenvolvimento ou manutenção de aplicações web;
+// Tratamento de erros: facilitam o tratamento correto de erros tanto no lado do cliente quanto no servidor, melhorando a experiência do usuário;
+// Monitoramento de performance: permitem monitorar a performance da aplicação ao analisar quantos e quais tipos de códigos de status são retornados.
+// Você provavelmente vai se deparar com códigos de status - e algum ou outro erro. Sabe como é: às vezes as coisas voam pelos ares. Faz parte de trabalhar com tecnologia. Compreender esses códigos aumenta sua confiança e capacidade de solução de problemas.
